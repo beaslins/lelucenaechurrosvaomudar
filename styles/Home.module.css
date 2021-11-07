@@ -1,14 +1,25 @@
-.bgheader {
-  background: url(../public/bgheader.png) no-repeat center/cover;
-  height: 100vh;
+
+
+.myVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
   width: 100%;
 
   display: flex;
   align-items: center;
-  justify-content: center;
 }
+
+
 .bgheader img {
   width: 40%;
+  margin: 0 auto;
+  position: absolute;
+  top: 45%;
+  bottom: 0;
+  display: block;
+  right: 0;
+  left: 0;
 }
 .title {
   text-align: center;
@@ -16,11 +27,10 @@
   font-size: 42px;
 }
 .list {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  gap: 1em;
-  justify-content: center;
-  align-items: center;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: flex-start;
 
   max-width: 1100px;
   margin: 0 auto;
@@ -33,13 +43,15 @@
 
   text-align: center;
   margin-bottom: 4em;
+  width: 24%;
 }
 .item p {
   margin: 0.5em 0;
 }
 .item .itemName {
-  font-size: 22px;
+  font-size: 20px;
   text-align: center;
+  min-height: 50px;
 }
 .item .itemPrice {
   font-weight: 900;
@@ -52,7 +64,6 @@
   box-shadow: 0px 3px 6px #5705F264;
   border-radius: 8px;
   padding: 10px 50px;
-  width: 55%;
   text-align: center;
   margin: 1em auto 0 auto;
 }
@@ -65,7 +76,12 @@
     width: 90%;
   }
   .list {
-    grid-template-columns: 90%;
+    display: block;
+  }
+  
+  .item {
+    width: 90%;
+    margin: 0 auto 4em auto;
   }
   
 }
