@@ -10,10 +10,6 @@ export default function Home() {
         <title>lelucenaechurros vão mudar</title>
         <meta name="description" content="" />
         <link rel="icon" href="/favicon.ico" />
-
-        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet"></link>
       </Head>
 
       <main>
@@ -24,7 +20,7 @@ export default function Home() {
         <h1 className={styles.title}>Ajude a montar nossa casa:</h1>
         <div className={styles.list}>
           <div className={styles.item}>
-              
+              <Image src="/balde.png" alt="" width={300} height={400} layout='responsive'/>
               <p className={styles.itemName}>Balde</p>
               <p className={styles.itemPrice}>R$ 20,00</p>
               <Link href="">
@@ -32,7 +28,7 @@ export default function Home() {
               </Link>
             </div>
             <div className={styles.item}>
-              
+              <Image src="/balde.png" alt="" width={300} height={400} layout='responsive'/>
               <p className={styles.itemName}>Balde</p>
               <p className={styles.itemPrice}>R$ 20,00</p>
               <Link href="">
@@ -40,7 +36,7 @@ export default function Home() {
               </Link>
             </div>
             <div className={styles.item}>
-              
+              <Image src="/balde.png" alt="" width={300} height={400} layout='responsive'/>
               <p className={styles.itemName}>Balde</p>
               <p className={styles.itemPrice}>R$ 20,00</p>
               <Link href="">
@@ -48,7 +44,7 @@ export default function Home() {
               </Link>
             </div>
             <div className={styles.item}>
-              
+              <Image src="/balde.png" alt="" width={300} height={400} layout='responsive'/>
               <p className={styles.itemName}>Balde</p>
               <p className={styles.itemPrice}>R$ 20,00</p>
               <Link href="">
