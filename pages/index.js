@@ -26,7 +26,7 @@ export default function Home() {
       <main>
         <header className={styles.bgheader}>
 
-          <video loop="true" autoplay="autoplay" className={styles.myVideo}>
+          <video className={styles.myVideo}>
             <source src="/leevi.mp4" type="video/mp4" />
           </video>
           
