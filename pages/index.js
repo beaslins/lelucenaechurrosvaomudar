@@ -24,11 +24,11 @@ export default function Home() {
         <h1 className={styles.title}>Ajude a montar nossa casa:</h1>
         <div className={styles.list}>
           <div className={styles.item}>
-              <Image src="/balde.png" alt="" width={300} height={400} layout='responsive'/>
-              <p className={styles.itemName}>Balde</p>
+              <Image src="/pano.png" alt="" width={300} height={400} layout='responsive'/>
+              <p className={styles.itemName}>Pano de prato</p>
               <p className={styles.itemPrice}>R$ 20,00</p>
-              <Link href="">
-                <a>Comprar</a>
+              <Link href="https://pag.ae/7XGxiW1G7">
+                <a target="_blank">Comprar</a>
               </Link>
             </div>
             <div className={styles.item}>
@@ -40,7 +40,7 @@ export default function Home() {
               </Link>
             </div>
             <div className={styles.item}>
-              <Image src="/balde.png" alt="" width={300} height={400} layout='responsive'/>
+              <Image src="/baldegamer.png" alt="" width={300} height={400} layout='responsive'/>
               <p className={styles.itemName}>Balde</p>
               <p className={styles.itemPrice}>R$ 20,00</p>
               <Link href="">
@@ -48,8 +48,8 @@ export default function Home() {
               </Link>
             </div>
             <div className={styles.item}>
-              <Image src="/balde.png" alt="" width={300} height={400} layout='responsive'/>
-              <p className={styles.itemName}>Balde</p>
+              <Image src="/casamento.png" alt="" width={300} height={400} layout='responsive'/>
+              <p className={styles.itemName}>Fazer o Vinicius pedir a Leticia em noivado</p>
               <p className={styles.itemPrice}>R$ 20,00</p>
               <Link href="">
                 <a>Comprar</a>
