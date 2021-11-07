@@ -58,4 +58,14 @@
 }
 
 @media (max-width: 600px) {
+  .bgheader {
+    height: 50vh;
+  }
+  .bgheader img {
+    width: 90%;
+  }
+  .list {
+    grid-template-columns: 90%;
+  }
+  
 }
