@@ -70,7 +70,7 @@
 
 @media (max-width: 600px) {
   .bgheader {
-    height: 50vh;
+    height: auto;
   }
   .bgheader img {
     width: 90%;
