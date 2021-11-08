@@ -74,11 +74,14 @@
   }
   .bgheader img {
     width: 90%;
+    top: 50px;
   }
   .list {
     display: block;
   }
-  
+  .title {
+    margin: 1em 0;
+  }
   .item {
     width: 90%;
     margin: 0 auto 4em auto;
